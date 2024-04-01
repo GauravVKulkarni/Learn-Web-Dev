@@ -48,11 +48,50 @@ h3 {
 iframe {
     display: flex;
     border-radius: 10px;
+    justify-content: center;
 }
 
-.buttons div {
-    display: block;
-    grid-template-rows: auto;
-    padding: 10px;
-    background-color: aqua;
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    border: none;
+    padding-bottom: 80px;
+
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background: #4285F4;
+    border: none;
+    border-radius: 4px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 2rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
 }
