@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     background-color: rgb(42, 42, 42);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
+    ;
 }
 
 body{
@@ -11,8 +12,7 @@ body{
 
 .main-container{
     width: 100vw;
-    height: 100vh;
-    background-color: rgb(50, 180, 140);
+    background-color: rgb(235, 235, 235);
 }
 
 .grid{
@@ -27,12 +27,28 @@ body{
 
 .grid-item{
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
     border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 64px 0 64px 0;
+}
+
+.flex-box{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-item{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-top: 300px;
+    width: 180px;
+    height: 120px;
 }
 
 h2{
